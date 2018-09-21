@@ -1,0 +1,2 @@
+# sudo kill <PID>
+sudo pkill tail
