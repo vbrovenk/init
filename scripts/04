@@ -1,0 +1,13 @@
+#!/bin/bash
+# sudo apt-get install mailutils
+echo "if [ -e /home/user/Desktop/cron.log ]
+then
+		if ! md5sum -c /home/user/Desktop/cron.log
+		then
+				echo \"New modifications in /etc/crontab file\" | mail -s \"NEW MODIFICATIONS\" root
+				md5sum /etc/crontab > /home/user/Desktop/cron.log
+		fi
+else
+		md5sum /etc/crontab > /home/user/Desktop/cron.log
+fi" > /home/user/Desktop/check.sh
+echo '0 0 * * * sh /home/user/Desktop/check.sh' | crontab

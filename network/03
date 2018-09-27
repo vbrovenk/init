@@ -1,1 +1,3 @@
-networksetup -getmacaddress 'Bluetooth PAN' | awk '{print $3}'
+# networksetup -listallhardwareports
+# use Ethernet MAC, because Wi-Fi is turn off
+networksetup -getmacaddress 'Ethernet' | awk '{print $3}'

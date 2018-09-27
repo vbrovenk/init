@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo touch /var/log/update_script.log
+touch /home/user/Desktop/script.sh
+echo 'sudo apt-get update >> /var/log/update_script.log && sudo apt-get upgrade >> /var/log/update_script.log' > /home/user/Desktop/script.sh
+echo '0 4 * * 1 sh /home/user/Desktop/script.sh' | crontab

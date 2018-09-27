@@ -1,1 +1,2 @@
+# -r show the routing tables
 netstat -nr | grep 'default' | awk '{print $2}'

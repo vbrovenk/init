@@ -1,0 +1,19 @@
+# First IP in output of command traceroute slash16.org
+traceroute: Warning: slash16.org has multiple addresses; using 52.84.197.41
+traceroute to slash16.org (52.84.197.41), 64 hops max, 52 byte packets
+ 1  178.214.196.33 (178.214.196.33)  0.783 ms  0.570 ms  0.620 ms
+ 2  v34.sh2.kv.wnet.ua (217.20.183.34)  0.589 ms  0.584 ms  0.557 ms
+ 3  ae1.hostlviv.lv.wnet.ua (217.20.162.25)  7.249 ms  8.072 ms  8.060 ms
+ 4  amazon.plix.pl (195.182.218.5)  13.507 ms  13.153 ms  14.112 ms
+ 5  52.93.18.70 (52.93.18.70)  16.220 ms
+    52.93.18.38 (52.93.18.38)  19.573 ms
+    52.93.18.70 (52.93.18.70)  18.077 ms
+ 6  52.93.18.175 (52.93.18.175)  14.296 ms
+    52.93.18.165 (52.93.18.165)  14.420 ms
+    52.93.18.167 (52.93.18.167)  13.473 ms
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  server-52-84-197-41.waw50.r.cloudfront.net (52.84.197.41)  15.070 ms  14.275 ms  15.038 ms
