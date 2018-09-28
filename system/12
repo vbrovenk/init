@@ -1,1 +1,2 @@
+# -s display only a total for each arg
 sudo du -sh /var/*

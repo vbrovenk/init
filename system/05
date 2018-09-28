@@ -1,2 +1,3 @@
+#sudo apt apdate
 #sudo apt install openssh-server
-service ssh status
+sudo service ssh status

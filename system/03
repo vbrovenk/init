@@ -1,1 +1,1 @@
-/etc/hostname
+cat /etc/hostname

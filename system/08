@@ -1,2 +1,2 @@
 # ssh-keygen -t rsa
-~/.ssh/id-rsa.pub
+cat ~/.ssh/id-rsa.pub
